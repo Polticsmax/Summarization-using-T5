@@ -1,8 +1,8 @@
-##  Project Description
+#  Project Description
 
 This project demonstrates how to summarize long text passages using the **T5 transformer model** from Hugging Face's `transformers` library. The steps below explain the code and flow of the summarization process.
 
-### Step-by-Step Breakdown:
+## Step-by-Step Breakdown:
 
 1. **Import Required Classes**  
    The code begins by importing `T5Tokenizer` and `T5ForConditionalGeneration` from the `transformers` library, which are essential for working with the T5 model.
@@ -27,6 +27,6 @@ This project demonstrates how to summarize long text passages using the **T5 tra
 
 ---
 
-###  Summary:
+#  Summary:
 
 This project uses the T5 transformer model to convert lengthy text into concise summaries. It walks through loading the pretrained model and tokenizer, preparing and tokenizing the input, and then generating and decoding the summary. With beam search and length penalties, the output is fine-tuned for readability and precision. The project showcases the practical use of LLMs for text summarization, highlighting how models like T5 can automate the reduction of long-form content while preserving essential information.
